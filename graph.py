@@ -3,7 +3,6 @@
 
 class Node(object):
     '''a node'''
-
     def __init__(self, value, identifier):
         self.__value = value
         self.__identifier = identifier
@@ -25,7 +24,6 @@ class Node(object):
 
 class Graph(object):
     '''the graph'''
-
     def __init__(self, dims):
         cols = dims[0]
         rows = dims[1]

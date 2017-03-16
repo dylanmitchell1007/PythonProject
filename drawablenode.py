@@ -106,4 +106,5 @@ class DrawableNode(object):
         # pygame.draw.rect(screen, self._color, self.rect)
         self.surface.fill(self._color)
         screen.blit(self.surface, self.screenpos)
-     
+
+
